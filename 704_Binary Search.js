@@ -29,5 +29,10 @@ var search = function(nums, target) {
            right=mid-1;
         }
     }
-    return -1;
+    return -1; 
+  /* You can write this as well i.e 
+     By using ternary operator you can write the following code for the line number 32.
+     return nums[mid]==target ? mid : -1 
+     
+  */
 };
