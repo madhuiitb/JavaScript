@@ -33,5 +33,19 @@ var rotate = function(nums, k) {
     
   //  console.log(nums);
     
+    // the other method with javascript
+//       let n = nums.length;
+    
+//     // Direct javascript methods are there
+//     // Unshift method and splice methods.
+//     k=k%n;
+//    // console.log(nums.splice(n-k));
+//    // console.log(...nums.splice(n-k));
+//     let slice = nums.splice(n-k);
+//    // console.log(slice);
+//     console.log(nums.splice(0,0,...slice));
+//    // nums.unshift(...slice);
+    
+//   //  console.log(nums);
     
 };
