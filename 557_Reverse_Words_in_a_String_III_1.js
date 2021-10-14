@@ -3,7 +3,8 @@
  * @return {string}
  * Runtime: 109 ms, faster than 34.92% of JavaScript online submissions for Reverse Words in a String III.
  * Memory Usage: 45 MB, less than 70.30% of JavaScript online submissions for Reverse Words in a String III.
- *
+ * Used split and reverse javascript functions.
+ * 
  */
 var reverseWords = function(s) {
     //console.log(s.split(' '));
